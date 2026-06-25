@@ -2,10 +2,7 @@
 *.csv
 sepsis.csv
 
-# Ignore giant serialized machine learning models
-*.pkl
-vitals_sepsis_model.pkl
-model_features.pkl
+
 
 # Ignore local python/jupyter cache folders
 .virtualenv/
