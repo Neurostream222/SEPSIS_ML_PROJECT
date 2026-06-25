@@ -1,0 +1,14 @@
+# Ignore the raw data spreadsheet
+*.csv
+sepsis.csv
+
+# Ignore giant serialized machine learning models
+*.pkl
+vitals_sepsis_model.pkl
+model_features.pkl
+
+# Ignore local python/jupyter cache folders
+.virtualenv/
+venv/
+.ipynb_checkpoints/
+__pycache__/
